@@ -1,0 +1,48 @@
+---
+// components/ReusableTitle.astro
+const { title, svgPosition = 'left' } = Astro.props;
+---
+
+<div class={`explenation ${svgPosition}`}>
+  {svgPosition === 'left' ? (
+    <>
+      <h1 class="introductionTitle1">{title.svg}</h1>
+      <div class="introductionTitle2">
+        <h1>{title.text}</h1>
+        <svg class="svg-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 555.96 236.48" aria-hidden="true">
+          <defs>
+            <filter id="svg-shadow" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="black" flood-opacity="0.2" />
+              <feDropShadow dx="0" dy="6" stdDeviation="3" flood-color="black" flood-opacity="0.3" />
+            </filter>
+          </defs>
+          <path
+            d="m256.95.49c-44.2-2.07-93.08,1.04-122.98,36..."
+            fill="currentColor"
+            filter="url(#svg-shadow)"
+          />
+        </svg>
+      </div>
+    </>
+  ) : (
+    <>
+      <h1 class="introductionTitle1">{title.text}</h1>
+      <div class="introductionTitle2">
+        <h1>{title.svg}</h1>
+        <svg class="svg-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 555.96 236.48" aria-hidden="true">
+          <defs>
+            <filter id="svg-shadow" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="black" flood-opacity="0.2" />
+              <feDropShadow dx="0" dy="6" stdDeviation="3" flood-color="black" flood-opacity="0.3" />
+            </filter>
+          </defs>
+          <path
+            d="m256.95.49c-44.2-2.07-93.08,1.04-122.98,36..."
+            fill="currentColor"
+            filter="url(#svg-shadow)"
+          />
+        </svg>
+      </div>
+    </>
+  )}
+</div>

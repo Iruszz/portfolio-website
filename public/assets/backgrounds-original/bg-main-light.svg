@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 640">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafaf0;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+        isolation: isolate;
+        opacity: .6;
+      }
+
+      .cls-3 {
+        opacity: .2;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="807.3" y1="384.7" x2="773.3" y2="496.7" gradientTransform="translate(0 642) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="660.2" y1="244.8" x2="661.6" y2="375.1" gradientTransform="translate(0 642) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="561.1" y1="187.8" x2="536.4" y2="302.2" gradientTransform="translate(0 642) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <path class="cls-1" d="M-18.2-15.7h1476.3v671.3H-18.2V-15.7Z"/>
+      <g class="cls-3">
+        <path class="cls-5" d="M439.6,249.6C811.9,75.9,1226.2,12.6,1633.4,67.1l-12.5,93.2c-389.4-52.1-785.6,8.4-1141.7,174.5L25.1,546.6l-39.7-85.2,454.2-211.8Z"/>
+        <path class="cls-2" d="M272.3,265.9c453.5-59.9,914.7,11.5,1329,205.6l-44.4,94.8c-396.1-185.6-837.1-253.9-1270.8-196.6l-553.3,73-13.7-103.8,553.3-73.1Z"/>
+        <path class="cls-4" d="M195.3,416.1c385.4-142.3,803.5-171.2,1204.9-83.2l-20.1,91.8c-383.8-84.1-783.6-56.5-1152.2,79.6l-470.2,173.6-32.6-88.2,470.2-173.6h0Z"/>
+      </g>
+      <path class="cls-1" d="M-258,718.6L1485.1,201l182.9,616.1L-75.1,1334.7l-182.9-616.1Z"/>
+    </g>
+  </g>
+</svg>

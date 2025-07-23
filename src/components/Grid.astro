@@ -12,12 +12,13 @@ const { variant } = Astro.props;
 
 <style>
 	.grid {
-		display: grid;
-		grid-auto-rows: 1fr;
-		gap: 1rem;
+		display: inline-grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 1.5rem;
 		list-style: none;
 		padding: 0;
 	}
+
 
 	.grid.small {
 		grid-template-columns: 1fr 1fr;

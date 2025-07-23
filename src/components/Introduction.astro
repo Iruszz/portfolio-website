@@ -1,0 +1,20 @@
+---
+// components/Introduction.astro
+import ReusableTitle from './ReusableTitle.astro';
+
+const ScrollAnimation = await import('./ScrollAnimation.astro');
+---
+
+<div class="scroll-content">
+  <div class="introduction">
+    <div class="explenation">
+      <ReusableTitle title={{ text: 'Hi, I am', svg: 'Iris Hofman' }} svgPosition="right" />
+    </div>
+
+    <div class="multimediaDesignerContainer">
+      <p class="desciption multimediaDesignerText">Multimedia Designer</p>
+    </div>
+
+    <ScrollAnimation.default />
+  </div>
+</div>
